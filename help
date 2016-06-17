@@ -7,3 +7,7 @@ col NAMESPACE for a10
 col COMMENTS for a45
 col BUNDLE_SERIES for a15
 select * from registry$history;
+
+snap_tbs tbs tablespace mon
+select * from tbs where dbname in ('WMESBS01','WMESBS02) order by ;
+select * from snap_tbs;
