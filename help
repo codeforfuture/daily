@@ -1,0 +1,9 @@
+ORACLE# CPU patch
+set line 199
+col VERSION for a10
+col ACTION_TIME for a30
+col ACTION for a10
+col NAMESPACE for a10
+col COMMENTS for a45
+col BUNDLE_SERIES for a15
+select * from registry$history;
